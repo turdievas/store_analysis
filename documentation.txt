@@ -1,0 +1,44 @@
+SQL Database Project – Summary
+Project Overview
+
+I developed an SQL database where raw data is first loaded into staging tables, then validated and moved into final tables. The database is designed in Third Normal Form (3NF) to reduce redundancy and ensure data consistency.
+
+Process
+
+Designed the schema in 3NF with proper keys and relationships.
+
+Loaded raw data into staging tables for validation.
+
+Moved cleaned data into final tables for reporting and analytics.
+
+Created triggers to maintain data integrity.
+
+Wrote stored procedures to handle ETL tasks.
+
+Not automated yet – I have not scheduled the stored procedures but they are ready for automation in the future.
+
+What I Learned
+
+How to normalize a database to 3NF.
+
+Using staging tables for safer data loading.
+
+Creating triggers to enforce rules automatically.
+
+Writing stored procedures to manage repetitive tasks.
+
+Challenges
+
+Managing dependencies between tables.
+
+Avoiding data duplication or loss during migration.
+
+Understanding how to automate the process (planned for later).
+
+Next Steps
+
+Automate stored procedure execution using SQL Server Agent.
+
+Add logging for failed or duplicate inserts.
+
+Test with larger datasets to optimize performance
